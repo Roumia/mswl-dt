@@ -1,13 +1,12 @@
-
 #  setuptools file  By Amal
 
 # ---------------------------------
 
 from setuptools import setup , find_packages
-setup( name = "Amal-web-spider",
+setup( name = "mycraaawler",
         version = "0.1",
         packages = find_packages(),
-        scripts = ['myspider.py'],
+        scripts = ['mycraaawler'],
         install_requires=['BeautifulSoup'],
         package_data = { 'pymycraawler': [''], }, 
         author = "Amal Roumi Suliman",
