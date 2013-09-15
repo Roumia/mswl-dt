@@ -3,7 +3,7 @@
 # ---------------------------------
 
 from setuptools import setup , find_packages
-setup( name = "mycraaawler",
+setup( name = "Amal web crawler",
         version = "0.1",
         packages = find_packages(),
         scripts = ['mycraaawler'],
