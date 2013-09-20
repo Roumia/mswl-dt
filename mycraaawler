@@ -1,0 +1,32 @@
+#
+# -*- coding: utf-8 -*-
+import pymycraawler
+import argparse
+
+def main():
+
+    parser = argparse.ArgumentParser ( description = '  This application is for crawling the web page enjoy! ' ,version ='0.1')
+
+    parser . add_argument ( '-n' , '--number-of-levels' , type =
+                       int ,default =1 ,
+                        help = 'how deep the crawler will go')
+
+    parser.add_argument ('url', nargs=1,help= 'url to crawle' )
+    args = parser.parse_args ()
+    depth = args.number_of_levels
+    url =args.url[0]
+    print_links(url,depth)
+        # this function is to make loop for number of level in the crawleing depth 
+def print_links (url, n):
+    if n == 0:
+       return
+    enlaces = pymycraawler.retrieve_url (url)
+    for l in enlaces:
+       print " %s %s " % ("*"*n,l) # wrong
+       print_links (l,n-1)
+    print ' "*" relited to the numbers of level '
+    
+    print "Done :D "                           
+if __name__=='__main__':
+       main ()
+
