@@ -19,4 +19,3 @@ License
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License.
     see more in LICENSE part . 
-    <a href="https://github.com/Roumia/mswl-dt/blob/master/LICENSE">    
