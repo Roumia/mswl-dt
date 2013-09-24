@@ -18,5 +18,4 @@ License
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License.
-    see more in LICENSE part
-[a link](https://github.com/Roumia/mswl-dt/blob/master/LICENSE)
+    see more in LICENSE  [LICENSE](https://github.com/Roumia/mswl-dt/blob/master/LICENSE) part
