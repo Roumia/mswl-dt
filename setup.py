@@ -15,6 +15,6 @@ setup( name = "Amal web crawler",
         license  = "GNU GPLv3",
         keywords = "web_crawler ,MSWL, web_spider, python ",
         url = "",
-        long_description = "Python application Assignments for Development Tools one of the subject in MSWL that"
+        long_description = " Web crawler in Python ,assignments for Development Tools one of the subject in MSWL,URJC that"
                            "get the current version of a web pagSpider to track the updates of a web page",
         download_url = "", )
