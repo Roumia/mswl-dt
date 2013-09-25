@@ -17,7 +17,7 @@ def retrieve_url (url):
                 if x.has_attr ('href')]
 
         return l
-   except urllib2.URLError:
+   except urllib2.URLError: "if there is no network connection ,or the specified server doesn't exist "
       return []
    except ValueError:    "when a function receives an argument that has the right type but an inappropriate value of the url"
         return []
