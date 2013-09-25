@@ -4,8 +4,10 @@ from bs4 import BeautifulSoup as Soup
 def retrieve_url (url):
 
    """
+      Here we can retrive the links form url and  the url must be in some valid format :
+   * http://www.example.com/.
+   * https://www.example.com/
 
-  documantion
 
   """
    opener = urllib2.build_opener ()    
