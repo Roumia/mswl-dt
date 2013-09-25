@@ -6,7 +6,7 @@ from setuptools import setup , find_packages
 setup( name = "Amal web crawler",
         version = "0.1",
         packages = find_packages(),
-        scripts = ['mycraaawler'],
+        scripts = ['Amal_crawler'],
         install_requires=['BeautifulSoup'],
         package_data = { 'pymycraawler': [''], }, 
         author = "Amal Roumi Suliman",
