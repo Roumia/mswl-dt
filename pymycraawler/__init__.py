@@ -1,4 +1,3 @@
-
 import urllib2
 from bs4 import BeautifulSoup as Soup
 
@@ -20,5 +19,5 @@ def retrieve_url (url):
         return l
    except urllib2.URLError:
       return []
-   except ValueError:
+   except ValueError:    "when a function receives an argument that has the right type but an inappropriate value of the url"
         return []
