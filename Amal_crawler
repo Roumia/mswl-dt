@@ -1,10 +1,34 @@
 #
 # -*- coding: utf-8 -*-
-import pymycraawler
+import pymycraawler # to import the __init__.py file 
 import argparse
+import datetime
+import time
 
+def start_greeting():
+    """Print some message about this crawler"""
+    print "==========================================================="
+    print "Web-spider  for MSWL  course, 2113/2014"
+    print "Amal Roumi, email: roumia@gmail.com"
+    print "==========================================================="
+    print ""
+
+def print_links (url,n):
+    """  to make loop to and extract the url in the crawleing depth   """
+    page_counter = 0
+    if n == 0:
+       return
+    enlaces = pymycraawler.retrieve_url (url)
+      
+    for l in enlaces:
+       print " %s %s " % ("*"*n,l)  
+       print_links (l,n-1)
+       page_counter +=1  # to count number of pages crawled 
+    print "-----------------------------------------------------"
+    print (" %s Webpages were crawled " % (page_counter))
+     
 def main():
-
+    start = time.time() 
     parser = argparse.ArgumentParser ( description = '  This application is for crawling the web page enjoy! ' ,version ='0.1')
 
     parser . add_argument ( '-n' , '--number-of-levels' , type =
@@ -12,21 +36,18 @@ def main():
                         help = 'how deep the crawler will go')
 
     parser.add_argument ('url', nargs=1,help= 'url to crawle' )
+
     args = parser.parse_args ()
     depth = args.number_of_levels
     url =args.url[0]
+    start_greeting()
     print_links(url,depth)
-        # this function is to make loop for number of level in the crawleing depth 
-def print_links (url, n):
-    if n == 0:
-       return
-    enlaces = pymycraawler.retrieve_url (url)
-    for l in enlaces:
-       print " %s %s " % ("*"*n,l) # wrong
-       print_links (l,n-1)
-    print ' "*" relited to the numbers of level '
-    
-    print "Done :D "                           
+
+    end = time.time() #"to  end calculate the elapsed time "
+    elapsed = end - start
+    elapsed_time_int = int(elapsed)
+    print " '*' indicated to the level depth"
+    print ' Time taken for crawling {} level is :{} seconds '.format(depth,elapsed_time_int)
+    print "Done :D "
 if __name__=='__main__':
        main ()
-
