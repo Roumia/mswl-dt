@@ -18,8 +18,8 @@ Requirements
  =============
 
    Currently, there is no installer, just grab the source code and run.\
-  * Download for GIT: https://github.com/Roumia/mswl-dt.git
-  *  Download zipball: https://github.com/Roumia/mswl-dt/archive/master.zip
+  * Download for GIT: [https://github.com/Roumia/mswl-dt.git](https://github.com/Roumia/mswl-dt.git)
+  * Download as zip : [https://github.com/Roumia/mswl-dt/archive/master.zip](https://github.com/Roumia/mswl-dt/archive/master.zip)
 
 How to run:
 ===========
