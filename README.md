@@ -28,7 +28,13 @@ How to run:
     Type "python mycraaler" on command line.
     $ python Amal_crawler.py  -n "level" "url"
       wher url is the web page you want to crawl .
-  
+
+    Check the setting.py to see anything should be change.
+    Type "python mycraaler" on command line.
+  `<code>`   $ python Amal_crawler.py  -n "level" "url"
+      wher url is the web page you want to crawl .
+    $ python Amal_crawler.py  -n "level" "url"
+
 
 License
 ========
