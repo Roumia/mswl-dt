@@ -1,8 +1,7 @@
 #
 # -*- coding: utf-8 -*-
 #  Amal Roumi
-#
-#
+
 #---------------------------------------------------------------------------------
 import pymycraawler # to import the __init__.py file  from the folder pymycraawler
 import argparse
