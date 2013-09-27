@@ -17,16 +17,16 @@ Requirements
  Installation:
  =============
 
-   Currently, there is no installer, just grab the source code and run.\
+   Currently, there is no installer, just grab the source code  by ether way then Run.
   * Download for GIT: [https://github.com/Roumia/mswl-dt.git](https://github.com/Roumia/mswl-dt.git)
   * Download as zip : [https://github.com/Roumia/mswl-dt/archive/master.zip](https://github.com/Roumia/mswl-dt/archive/master.zip)
 
 How to run:
 ===========
 
-   Check the setting.py to see anything should be change.
-   Type "python mycraaler" on command line.
-   wher url is the web page you want to crawl.
+    Check the setting.py to see anything should be change.
+    Type "python mycraaler" on command line.
+      wher url is the web page you want to crawl.
    
     python Amal_crawler.py  -n "level" "url"
  
