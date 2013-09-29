@@ -1,9 +1,7 @@
 A Web Crawler.
 ==============
 
-   
 Is a computer program that browses the World Wide Web Start from the url and crawl the web pages with a specified depth.
-
 
  Introduction
  =============
