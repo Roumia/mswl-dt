@@ -1,18 +1,19 @@
- A Web Crawler.
- ==============
+A Web Crawler.
+==============
 
    
-A computer program that browses the World Wide Web Start from the url and crawl the web pages with a specified depth.
+Is a computer program that browses the World Wide Web Start from the url and crawl the web pages with a specified depth.
 
 
-Introduction
-=============
- This program is  part of the assigment in  Development Tools  in Software Libre  master  in 2013
+ Introduction
+ =============
+   This program is  part of the assigment for the course “Development Tools”, of the Master on libre software of URJC 2013/2014 .
 
-Requirements
-------------
- * installing  BeatifulSoup 
- *
+
+ Requirements
+ =============
+   * Installing  BeatifulSoup 
+   * Installing
 
  Installation:
  =============
@@ -21,21 +22,16 @@ Requirements
   * Download for GIT: [https://github.com/Roumia/mswl-dt.git](https://github.com/Roumia/mswl-dt.git)
   * Download as zip : [https://github.com/Roumia/mswl-dt/archive/master.zip](https://github.com/Roumia/mswl-dt/archive/master.zip)
 
-How to run:
-===========
+ How to run:
+ ===========
 
-   Check the setting.py to see anything should be change.
-   Type "python mycraaler" on command line.
-   wher url is the web page you want to crawl.
+   On command line type this command where  "url" is the web page  and "level" is the depth of crawling .
 
     $python Amal_crawler.py  -n "level" "url"
 
-	amal
- 
 
-
-License
-========
+ License
+ ========
 
   This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
