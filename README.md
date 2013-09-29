@@ -3,13 +3,13 @@ A Web Crawler.
 
 Is a computer program that browses the World Wide Web Start from the url and crawl the web pages with a specified depth.
 
-Introduction :
+  Introduction :
 =============
    This program is  part of the assigment for the course “Development Tools”, of the Master on libre software of URJC 2013/2014 .
 
 
- Requirements
- =============
+  Requirements
+=============
    * Installing  BeatifulSoup 
    * Installing
 
