@@ -28,7 +28,7 @@ def print_links (url,n):
     """  to make loop to and extract the url in the crawleing depth   """
     page_counter = 0
     if n == 0:
-       return
+       print "Root"
     enlaces = pymycraawler.retrieve_url (url)
       
     for l in enlaces:
