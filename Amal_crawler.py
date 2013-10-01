@@ -13,7 +13,7 @@ def start_greeting():
     print "==========================================================="
     print "Web-spider  for the Development Tools ,MSWL  course, 2013/2014"
     print "Amal Roumi, email: roumia@gmail.com"
-    print " let start crawling "
+    print " let's start crawling "
 def summary(depth,end,start):
     """ Print summary messages  and calculate the elapsed time """
     elapsed = end - start
