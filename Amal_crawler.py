@@ -28,7 +28,7 @@ def print_links (url,n):
     """  to make loop to and extract the url in the crawleing depth   """
     page_counter = 0
     if n == 0:
-       print "Root"
+        return 
     enlaces = pymycraawler.retrieve_url (url)
       
     for l in enlaces:
@@ -45,7 +45,7 @@ def main():
     parser.add_argument ( '-n' , '--number-of-levels' , type = int ,\
                             default =1 ,help = 'how deep the crawler will go')
 
-    parser.add_argument ('URL', nargs=1,help= 'Target URL to crawle ' )
+    parser.add_argument ('url', nargs=1,help= 'Target URL to crawle ' )
 
     args = parser.parse_args ()
     depth = args.number_of_levels
