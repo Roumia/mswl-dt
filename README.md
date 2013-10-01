@@ -11,7 +11,7 @@ Is a computer program that browses the World Wide Web Start from the url and cra
   Requirements
 =============
    * Installing  BeatifulSoup 
-   * Installing
+   * Installing 
 
  Installation:
  =============

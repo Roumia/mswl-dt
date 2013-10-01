@@ -6,7 +6,7 @@
 import pymycraawler # to import the __init__.py file  from the folder pymycraawler
 import argparse
 import datetime
-import time
+import time # to calculate  elapsed time 
 
 def start_greeting():
     """Print some messages about this crawler"""
