@@ -13,7 +13,7 @@ def start_greeting():
     print "==========================================================="
     print "Web-spider  for the Development Tools ,MSWL  course, 2013/2014"
     print "Amal Roumi, email: roumia@gmail.com"
-    print
+    print " let start crawling "
 def summary(depth,end,start):
     """ Print summary messages  and calculate the elapsed time """
     elapsed = end - start
@@ -45,7 +45,7 @@ def main():
     parser.add_argument ( '-n' , '--number-of-levels' , type = int ,\
                             default =1 ,help = 'how deep the crawler will go')
 
-    parser.add_argument ('url', nargs=1,help= 'url to crawle' )
+    parser.add_argument ('URL', nargs=1,help= 'Target URL to crawle ' )
 
     args = parser.parse_args ()
     depth = args.number_of_levels

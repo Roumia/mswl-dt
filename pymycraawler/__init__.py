@@ -18,6 +18,7 @@ def retrieve_url (url):
                 if x.has_attr ('href')]
         return l
    except urllib2.URLError:
+      print ("Error accessing URL. Check your Internet connection")
       return []
    except ValueError:
         return []
