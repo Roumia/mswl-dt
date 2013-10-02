@@ -26,21 +26,21 @@ Is a computer program that browses the World Wide Web Start from the url and cra
    "url" is the web page.
    "level" is the depth of crawling .
 
-    $python Amal_crawler.py  -n "level" "url"
+    <code> $python Amal_crawler.py  -n "level" "url"</code>
 
  Code Documentation:
 =====================
   
-  ├── Amal_crawler.py
-  ├── AUTHORS
-  ├── ChangeLog
-  ├── LICENSE
-  ├── pymycraawler
-  │   ├── __init__.py
-  │   └── __init__.pyc
-  ├── README.md
-  ├── setup.py
-  └── TODO.md
+  ├── Amal_crawler.py <br />
+  ├── AUTHORS <br />
+  ├── ChangeLog <br />
+  ├── LICENSE <br />
+  ├── pymycraawler <br />
+  │   ├── __init__.py <br />
+  │   └── __init__.pyc <br />
+  ├── README.md <br />
+  ├── setup.py <br />
+  └── TODO.md <br />
 
 
 
