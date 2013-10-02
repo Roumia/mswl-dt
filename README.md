@@ -33,24 +33,15 @@ This program is  part of the assigment for the course “Development Tools”, o
 ----------------
   
    ├── Amal_crawler.py <br />
-   |
-   ├── AUTHORS 
-   |
-   ├── ChangeLog 
-   |
-   ├── LICENSE
-   |
-   ├── pymycraawler
-   |
-   │   ├── __init__.py
-   |   |
-   │   └── __init__.pyc
-   |
-   ├── README.md
-   |
-   ├── setup.py
-   |
-   └── TODO.md
+   ├── AUTHORS <br /> 
+   ├── ChangeLog <br /> 
+   ├── LICENSE <br />
+   ├── pymycraawler <br />
+   │   ├── __init__.py <br />
+   │   └── __init__.pyc <br />
+   ├── README.md <br />
+   ├── setup.py <br />
+   └── TODO.md <br />
    
 
 
