@@ -32,7 +32,7 @@ This program is  part of the assigment for the course “Development Tools”, o
  Code Documentation:
 ----------------
   
-   ├── Amal_crawler.py
+   ├── Amal_crawler.py <br />
    |
    ├── AUTHORS 
    |
