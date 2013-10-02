@@ -5,7 +5,8 @@ Is a computer program that browses the World Wide Web Start from the url and cra
 
   Introduction :
 =============
-   This program is  part of the assigment for the course “Development Tools”, of the Master on libre software of URJC 2013/2014 .
+    
+This program is  part of the assigment for the course “Development Tools”, of the Master on libre software of URJC 2013/2014 .
 
 
   Requirements
@@ -31,16 +32,16 @@ Is a computer program that browses the World Wide Web Start from the url and cra
  Code Documentation:
 =====================
   
-  ├── Amal_crawler.py
-  ├── AUTHORS
-  ├── ChangeLog
-  ├── LICENSE
-  ├── pymycraawler
-  │   ├── __init__.py
-  │   └── __init__.pyc
-  ├── README.md
-  ├── setup.py
-  └── TODO.md
+   ├── Amal_crawler.py/
+   ├── AUTHORS /
+   ├── ChangeLog /
+   ├── LICENSE
+   ├── pymycraawler
+   │   ├── __init__.py
+   │   └── __init__.pyc
+   ├── README.md
+   ├── setup.py
+   └── TODO.md
 
 
 
