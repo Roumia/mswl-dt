@@ -27,7 +27,7 @@ This program is  part of the assigment for the course “Development Tools”, o
    "url" is the web page.
    "level" is the depth of crawling .
 
-    $python Amal_crawler.py  -n "level" "url"
+   <code> $python Amal_crawler.py  -n "level" "url" </code>
 
  Code Documentation:
 ----------------
